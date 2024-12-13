@@ -15,9 +15,13 @@ Ensure Data Security: Implement robust security measures to protect user data an
 3.1 User Roles
 
 Guest:
+
 Registration and Login: Facilitate a simple registration and login process, supporting email or social media accounts.
+
 Search and Filter: Allow users to search for vehicles based on criteria such as brand, availability dates, price, and purpose.
+
 Booking and Payment: Enable viewing of vehicle details, booking, and secure payment processing.
+
 Profile Management: Provide options to view and update personal information and booking history.
 
 Host:
