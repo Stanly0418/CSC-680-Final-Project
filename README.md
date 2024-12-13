@@ -13,6 +13,7 @@ Ensure Data Security: Implement robust security measures to protect user data an
 3. Core Features
 
 3.1 User Roles
+
 Guest:
 Registration and Login: Facilitate a simple registration and login process, supporting email or social media accounts.
 Search and Filter: Allow users to search for vehicles based on criteria such as brand, availability dates, price, and purpose.
@@ -21,7 +22,9 @@ Profile Management: Provide options to view and update personal information and 
 
 Host:
 Vehicle Management: Allow hosts to add, edit, and remove vehicle information, including photos, descriptions, availability dates, and pricing.
+
 Booking Management: Enable hosts to view and manage booking requests from guests, with options to confirm or decline.
+
 Profile Management: Provide options to view and update personal information and manage listed vehicles.
 
 
