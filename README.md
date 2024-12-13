@@ -6,38 +6,40 @@ This project aims to create an intuitive iOS car-sharing application that connec
 2. Objectives
 Provide a Dual-Role Platform: Enable guests to easily find and rent suitable vehicles, while allowing hosts to list and manage their cars effortlessly.
 
-Simplify User Interaction: Design an intuitive interface with straightforward operations to minimize the learning curve and improve efficiency.
+  Simplify User Interaction: Design an intuitive interface with straightforward operations to minimize the learning curve and improve efficiency.
 
-Ensure Data Security: Implement robust security measures to protect user data and establish a trustworthy environment.
+  Ensure Data Security: Implement robust security measures to protect user data and establish a trustworthy environment.
 
 3. Core Features
 
-3.1 User Roles
+  3.1 User Roles
 
-Guest:
+  Guest:
 
-Registration and Login: Facilitate a simple registration and login process, supporting email or social media accounts.
+  Registration and Login: Facilitate a simple registration and login process, supporting email or social media accounts.
 
-Search and Filter: Allow users to search for vehicles based on criteria such as brand, availability dates, price, and purpose.
+  Search and Filter: Allow users to search for vehicles based on criteria such as brand, availability dates, price, and purpose.
 
-Booking and Payment: Enable viewing of vehicle details, booking, and secure payment processing.
+  Booking and Payment: Enable viewing of vehicle details, booking, and secure payment processing.
 
-Profile Management: Provide options to view and update personal information and booking history.
+  Profile Management: Provide options to view and update personal information and booking history.
 
-Host:
+  Host:
 
-Vehicle Management: Allow hosts to add, edit, and remove vehicle information, including photos, descriptions, availability dates, and pricing.
+  Vehicle Management: Allow hosts to add, edit, and remove vehicle information, including photos, descriptions, availability dates, and pricing.
 
-Booking Management: Enable hosts to view and manage booking requests from guests, with options to confirm or decline.
+  Booking Management: Enable hosts to view and manage booking requests from guests, with options to confirm or decline.
 
-Profile Management: Provide options to view and update personal information and manage listed vehicles.
+  Profile Management: Provide options to view and update personal information and manage listed vehicles.
 
 
-3.2 Additional Features
+  3.2 Additional Features
 
-Rating System: Facilitate mutual ratings between guests and hosts to build trust.
-Notification System: Send push notifications to inform users about booking statuses, messages, and other important updates.
-Multilingual Support: Offer multiple language options to cater to a diverse user base.
+  Rating System: Facilitate mutual ratings between guests and hosts to build trust.
+ 
+  Notification System: Send push notifications to inform users about booking statuses, messages, and other important updates.
+  
+  Multilingual Support: Offer multiple language options to cater to a diverse user base.
 
 4. Technical Specifications
 Development Language: Swift.
