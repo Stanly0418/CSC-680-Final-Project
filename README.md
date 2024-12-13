@@ -11,6 +11,7 @@ Simplify User Interaction: Design an intuitive interface with straightforward op
 Ensure Data Security: Implement robust security measures to protect user data and establish a trustworthy environment.
 
 3. Core Features
+
 3.1 User Roles
 Guest:
 
@@ -23,6 +24,7 @@ Host:
 Vehicle Management: Allow hosts to add, edit, and remove vehicle information, including photos, descriptions, availability dates, and pricing.
 Booking Management: Enable hosts to view and manage booking requests from guests, with options to confirm or decline.
 Profile Management: Provide options to view and update personal information and manage listed vehicles.
+
 
 3.2 Additional Features
 Rating System: Facilitate mutual ratings between guests and hosts to build trust.
