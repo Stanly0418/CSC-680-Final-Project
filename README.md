@@ -23,10 +23,12 @@ Host:
 Vehicle Management: Allow hosts to add, edit, and remove vehicle information, including photos, descriptions, availability dates, and pricing.
 Booking Management: Enable hosts to view and manage booking requests from guests, with options to confirm or decline.
 Profile Management: Provide options to view and update personal information and manage listed vehicles.
+
 3.2 Additional Features
 Rating System: Facilitate mutual ratings between guests and hosts to build trust.
 Notification System: Send push notifications to inform users about booking statuses, messages, and other important updates.
 Multilingual Support: Offer multiple language options to cater to a diverse user base.
+
 4. Technical Specifications
 Development Language: Swift.
 Development Environment: Xcode.
@@ -36,6 +38,7 @@ User and Vehicle Information: Utilize Core Data for local storage.
 User Settings: Store using UserDefaults.
 Sensitive Information: Secure using Keychain.
 Payment System: Integrate Apple Pay for online transactions.
+
 5. Development Plan
 Requirement Analysis: Identify all functional requirements and technical specifications.
 Design: Create wireframes and UI designs for the application.
