@@ -1,4 +1,4 @@
-# CSC-680-Final-Project-NexTrip
+# CSC-680-Final-Project-CarNest
 
 1. Project Overview
 This project aims to create an intuitive iOS car-sharing application that connects guests seeking to rent vehicles with hosts offering their cars. The app will feature a streamlined registration process, efficient search and filter functionalities, and a secure booking and payment system to enhance user experience. All data will be managed locally using Core Data, eliminating the need for cloud services.
