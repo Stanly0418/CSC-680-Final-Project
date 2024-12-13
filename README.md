@@ -25,6 +25,7 @@ Booking and Payment: Enable viewing of vehicle details, booking, and secure paym
 Profile Management: Provide options to view and update personal information and booking history.
 
 Host:
+
 Vehicle Management: Allow hosts to add, edit, and remove vehicle information, including photos, descriptions, availability dates, and pricing.
 
 Booking Management: Enable hosts to view and manage booking requests from guests, with options to confirm or decline.
