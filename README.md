@@ -45,11 +45,8 @@ Provide a Dual-Role Platform: Enable guests to easily find and rent suitable veh
 Development Language: Swift.
 Development Environment: Xcode.
 Platform: iOS.
-Data Storage:
-User and Vehicle Information: Utilize Core Data for local storage.
 User Settings: Store using UserDefaults.
 Sensitive Information: Secure using Keychain.
-Payment System: Integrate Apple Pay for online transactions.
 
 5. Development Plan
 Requirement Analysis: Identify all functional requirements and technical specifications.
