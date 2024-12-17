@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B06466412D0F4A53008C1E20 /* CarNestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06466402D0F4A53008C1E20 /* CarNestApp.swift */; };
+		B06466432D0F4A53008C1E20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06466422D0F4A53008C1E20 /* ContentView.swift */; };
+		B06466452D0F4A56008C1E20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B06466442D0F4A56008C1E20 /* Assets.xcassets */; };
+		B06466482D0F4A56008C1E20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B06466472D0F4A56008C1E20 /* Preview Assets.xcassets */; };
+		B06466522D0F4A56008C1E20 /* CarNestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06466512D0F4A56008C1E20 /* CarNestTests.swift */; };
+		B064665C2D0F4A56008C1E20 /* CarNestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B064665B2D0F4A56008C1E20 /* CarNestUITests.swift */; };
+		B064665E2D0F4A56008C1E20 /* CarNestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B064665D2D0F4A56008C1E20 /* CarNestUITestsLaunchTests.swift */; };
+		B064666B2D0F4CCD008C1E20 /* GuestLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B064666A2D0F4CCD008C1E20 /* GuestLoginView.swift */; };
+		B064666D2D0F4D4B008C1E20 /* HostLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B064666C2D0F4D4B008C1E20 /* HostLoginView.swift */; };
+		B064666F2D0F4DD7008C1E20 /* GuestSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B064666E2D0F4DD7008C1E20 /* GuestSignUpView.swift */; };
+		B06466712D0F4E41008C1E20 /* HostSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06466702D0F4E41008C1E20 /* HostSignUpView.swift */; };
+		B06466732D0F570F008C1E20 /* GuestDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06466722D0F570F008C1E20 /* GuestDashboardView.swift */; };
+		B06466752D0F5C6A008C1E20 /* SearchResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06466742D0F5C6A008C1E20 /* SearchResultsView.swift */; };
+		B06466772D0F5DEC008C1E20 /* BookingConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06466762D0F5DEC008C1E20 /* BookingConfirmationView.swift */; };
+		B06466792D0F775F008C1E20 /* HostDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06466782D0F775F008C1E20 /* HostDashboardView.swift */; };
+		B064667B2D0F77F5008C1E20 /* AddVehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B064667A2D0F77F5008C1E20 /* AddVehicleView.swift */; };
+		B064667D2D0F7A1B008C1E20 /* EditVehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B064667C2D0F7A1B008C1E20 /* EditVehicleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B064664E2D0F4A56008C1E20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B06466352D0F4A53008C1E20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B064663C2D0F4A53008C1E20;
+			remoteInfo = CarNest;
+		};
+		B06466582D0F4A56008C1E20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B06466352D0F4A53008C1E20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B064663C2D0F4A53008C1E20;
+			remoteInfo = CarNest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B064663D2D0F4A53008C1E20 /* CarNest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarNest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06466402D0F4A53008C1E20 /* CarNestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarNestApp.swift; sourceTree = "<group>"; };
+		B06466422D0F4A53008C1E20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B06466442D0F4A56008C1E20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B06466472D0F4A56008C1E20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B064664D2D0F4A56008C1E20 /* CarNestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarNestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06466512D0F4A56008C1E20 /* CarNestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarNestTests.swift; sourceTree = "<group>"; };
+		B06466572D0F4A56008C1E20 /* CarNestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarNestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B064665B2D0F4A56008C1E20 /* CarNestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarNestUITests.swift; sourceTree = "<group>"; };
+		B064665D2D0F4A56008C1E20 /* CarNestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarNestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B064666A2D0F4CCD008C1E20 /* GuestLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestLoginView.swift; sourceTree = "<group>"; };
+		B064666C2D0F4D4B008C1E20 /* HostLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostLoginView.swift; sourceTree = "<group>"; };
+		B064666E2D0F4DD7008C1E20 /* GuestSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestSignUpView.swift; sourceTree = "<group>"; };
+		B06466702D0F4E41008C1E20 /* HostSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostSignUpView.swift; sourceTree = "<group>"; };
+		B06466722D0F570F008C1E20 /* GuestDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestDashboardView.swift; sourceTree = "<group>"; };
+		B06466742D0F5C6A008C1E20 /* SearchResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsView.swift; sourceTree = "<group>"; };
+		B06466762D0F5DEC008C1E20 /* BookingConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingConfirmationView.swift; sourceTree = "<group>"; };
+		B06466782D0F775F008C1E20 /* HostDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostDashboardView.swift; sourceTree = "<group>"; };
+		B064667A2D0F77F5008C1E20 /* AddVehicleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVehicleView.swift; sourceTree = "<group>"; };
+		B064667C2D0F7A1B008C1E20 /* EditVehicleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditVehicleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B064663A2D0F4A53008C1E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B064664A2D0F4A56008C1E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06466542D0F4A56008C1E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B06466342D0F4A53008C1E20 = {
+			isa = PBXGroup;
+			children = (
+				B064663F2D0F4A53008C1E20 /* CarNest */,
+				B06466502D0F4A56008C1E20 /* CarNestTests */,
+				B064665A2D0F4A56008C1E20 /* CarNestUITests */,
+				B064663E2D0F4A53008C1E20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B064663E2D0F4A53008C1E20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B064663D2D0F4A53008C1E20 /* CarNest.app */,
+				B064664D2D0F4A56008C1E20 /* CarNestTests.xctest */,
+				B06466572D0F4A56008C1E20 /* CarNestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B064663F2D0F4A53008C1E20 /* CarNest */ = {
+			isa = PBXGroup;
+			children = (
+				B06466722D0F570F008C1E20 /* GuestDashboardView.swift */,
+				B06466402D0F4A53008C1E20 /* CarNestApp.swift */,
+				B06466422D0F4A53008C1E20 /* ContentView.swift */,
+				B06466442D0F4A56008C1E20 /* Assets.xcassets */,
+				B06466462D0F4A56008C1E20 /* Preview Content */,
+				B064666A2D0F4CCD008C1E20 /* GuestLoginView.swift */,
+				B064666C2D0F4D4B008C1E20 /* HostLoginView.swift */,
+				B064666E2D0F4DD7008C1E20 /* GuestSignUpView.swift */,
+				B06466702D0F4E41008C1E20 /* HostSignUpView.swift */,
+				B06466742D0F5C6A008C1E20 /* SearchResultsView.swift */,
+				B06466762D0F5DEC008C1E20 /* BookingConfirmationView.swift */,
+				B06466782D0F775F008C1E20 /* HostDashboardView.swift */,
+				B064667A2D0F77F5008C1E20 /* AddVehicleView.swift */,
+				B064667C2D0F7A1B008C1E20 /* EditVehicleView.swift */,
+			);
+			path = CarNest;
+			sourceTree = "<group>";
+		};
+		B06466462D0F4A56008C1E20 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B06466472D0F4A56008C1E20 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B06466502D0F4A56008C1E20 /* CarNestTests */ = {
+			isa = PBXGroup;
+			children = (
+				B06466512D0F4A56008C1E20 /* CarNestTests.swift */,
+			);
+			path = CarNestTests;
+			sourceTree = "<group>";
+		};
+		B064665A2D0F4A56008C1E20 /* CarNestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B064665B2D0F4A56008C1E20 /* CarNestUITests.swift */,
+				B064665D2D0F4A56008C1E20 /* CarNestUITestsLaunchTests.swift */,
+			);
+			path = CarNestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B064663C2D0F4A53008C1E20 /* CarNest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06466612D0F4A56008C1E20 /* Build configuration list for PBXNativeTarget "CarNest" */;
+			buildPhases = (
+				B06466392D0F4A53008C1E20 /* Sources */,
+				B064663A2D0F4A53008C1E20 /* Frameworks */,
+				B064663B2D0F4A53008C1E20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarNest;
+			productName = CarNest;
+			productReference = B064663D2D0F4A53008C1E20 /* CarNest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B064664C2D0F4A56008C1E20 /* CarNestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06466642D0F4A56008C1E20 /* Build configuration list for PBXNativeTarget "CarNestTests" */;
+			buildPhases = (
+				B06466492D0F4A56008C1E20 /* Sources */,
+				B064664A2D0F4A56008C1E20 /* Frameworks */,
+				B064664B2D0F4A56008C1E20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B064664F2D0F4A56008C1E20 /* PBXTargetDependency */,
+			);
+			name = CarNestTests;
+			productName = CarNestTests;
+			productReference = B064664D2D0F4A56008C1E20 /* CarNestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B06466562D0F4A56008C1E20 /* CarNestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06466672D0F4A56008C1E20 /* Build configuration list for PBXNativeTarget "CarNestUITests" */;
+			buildPhases = (
+				B06466532D0F4A56008C1E20 /* Sources */,
+				B06466542D0F4A56008C1E20 /* Frameworks */,
+				B06466552D0F4A56008C1E20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B06466592D0F4A56008C1E20 /* PBXTargetDependency */,
+			);
+			name = CarNestUITests;
+			productName = CarNestUITests;
+			productReference = B06466572D0F4A56008C1E20 /* CarNestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B06466352D0F4A53008C1E20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B064663C2D0F4A53008C1E20 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B064664C2D0F4A56008C1E20 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B064663C2D0F4A53008C1E20;
+					};
+					B06466562D0F4A56008C1E20 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B064663C2D0F4A53008C1E20;
+					};
+				};
+			};
+			buildConfigurationList = B06466382D0F4A53008C1E20 /* Build configuration list for PBXProject "CarNest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B06466342D0F4A53008C1E20;
+			productRefGroup = B064663E2D0F4A53008C1E20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B064663C2D0F4A53008C1E20 /* CarNest */,
+				B064664C2D0F4A56008C1E20 /* CarNestTests */,
+				B06466562D0F4A56008C1E20 /* CarNestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B064663B2D0F4A53008C1E20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06466482D0F4A56008C1E20 /* Preview Assets.xcassets in Resources */,
+				B06466452D0F4A56008C1E20 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B064664B2D0F4A56008C1E20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06466552D0F4A56008C1E20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B06466392D0F4A53008C1E20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B064666D2D0F4D4B008C1E20 /* HostLoginView.swift in Sources */,
+				B06466792D0F775F008C1E20 /* HostDashboardView.swift in Sources */,
+				B06466732D0F570F008C1E20 /* GuestDashboardView.swift in Sources */,
+				B06466432D0F4A53008C1E20 /* ContentView.swift in Sources */,
+				B064666F2D0F4DD7008C1E20 /* GuestSignUpView.swift in Sources */,
+				B064667D2D0F7A1B008C1E20 /* EditVehicleView.swift in Sources */,
+				B06466412D0F4A53008C1E20 /* CarNestApp.swift in Sources */,
+				B06466772D0F5DEC008C1E20 /* BookingConfirmationView.swift in Sources */,
+				B064667B2D0F77F5008C1E20 /* AddVehicleView.swift in Sources */,
+				B06466752D0F5C6A008C1E20 /* SearchResultsView.swift in Sources */,
+				B06466712D0F4E41008C1E20 /* HostSignUpView.swift in Sources */,
+				B064666B2D0F4CCD008C1E20 /* GuestLoginView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06466492D0F4A56008C1E20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06466522D0F4A56008C1E20 /* CarNestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06466532D0F4A56008C1E20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B064665C2D0F4A56008C1E20 /* CarNestUITests.swift in Sources */,
+				B064665E2D0F4A56008C1E20 /* CarNestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B064664F2D0F4A56008C1E20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B064663C2D0F4A53008C1E20 /* CarNest */;
+			targetProxy = B064664E2D0F4A56008C1E20 /* PBXContainerItemProxy */;
+		};
+		B06466592D0F4A56008C1E20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B064663C2D0F4A53008C1E20 /* CarNest */;
+			targetProxy = B06466582D0F4A56008C1E20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B064665F2D0F4A56008C1E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B06466602D0F4A56008C1E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B06466622D0F4A56008C1E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarNest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testing.CarNest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B06466632D0F4A56008C1E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarNest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testing.CarNest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B06466652D0F4A56008C1E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testing.CarNestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarNest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarNest";
+			};
+			name = Debug;
+		};
+		B06466662D0F4A56008C1E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testing.CarNestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarNest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarNest";
+			};
+			name = Release;
+		};
+		B06466682D0F4A56008C1E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testing.CarNestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarNest;
+			};
+			name = Debug;
+		};
+		B06466692D0F4A56008C1E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testing.CarNestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarNest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B06466382D0F4A53008C1E20 /* Build configuration list for PBXProject "CarNest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B064665F2D0F4A56008C1E20 /* Debug */,
+				B06466602D0F4A56008C1E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06466612D0F4A56008C1E20 /* Build configuration list for PBXNativeTarget "CarNest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06466622D0F4A56008C1E20 /* Debug */,
+				B06466632D0F4A56008C1E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06466642D0F4A56008C1E20 /* Build configuration list for PBXNativeTarget "CarNestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06466652D0F4A56008C1E20 /* Debug */,
+				B06466662D0F4A56008C1E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06466672D0F4A56008C1E20 /* Build configuration list for PBXNativeTarget "CarNestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06466682D0F4A56008C1E20 /* Debug */,
+				B06466692D0F4A56008C1E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B06466352D0F4A53008C1E20 /* Project object */;
+}
