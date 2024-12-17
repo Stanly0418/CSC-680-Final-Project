@@ -12,7 +12,7 @@ Provide a Dual-Role Platform: Enable guests to easily find and rent suitable veh
 
 3. Core Features
 
-  3.1 User Roles
+User Roles:
 
   Guest:
 
@@ -32,15 +32,6 @@ Provide a Dual-Role Platform: Enable guests to easily find and rent suitable veh
 
   Profile Management: Provide options to view and update personal information and manage listed vehicles.
 
-
-  3.2 Additional Features
-
-  Rating System: Facilitate mutual ratings between guests and hosts to build trust.
- 
-  Notification System: Send push notifications to inform users about booking statuses, messages, and other important updates.
-  
-  Multilingual Support: Offer multiple language options to cater to a diverse user base.
-
 4. Technical Specifications
 Development Language: Swift.
 Development Environment: Xcode.
@@ -53,7 +44,5 @@ Requirement Analysis: Identify all functional requirements and technical specifi
 Design: Create wireframes and UI designs for the application.
 Frontend Development: Build the user interface and implement client-side functionalities using Swift and Xcode.
 Data Storage Implementation: Set up Core Data to manage user and vehicle information locally.
-Payment Integration: Incorporate Apple Pay to handle transactions.
 Testing: Conduct comprehensive testing to ensure functionality, security, and performance.
-Deployment: Launch the application on the App Store.
 Maintenance: Provide ongoing support and updates as needed.
